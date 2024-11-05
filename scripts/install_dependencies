@@ -1,3 +1,8 @@
 #!/bin/bash
+
+# Install Apache (httpd)
 yum install -y httpd
 
+# Install Ruby and necessary gems
+yum install -y ruby
+gem install rake haml
